@@ -4,7 +4,7 @@
 
         <p>
             VueLanding is a simple landing page application for studies with vue. <br />
-            Developeed by: <a href="https://github.com/Lucas-Souto" target="_blank">Lucas Souto</a>
+            Developed by: <a href="https://github.com/Lucas-Souto" target="_blank">Lucas Souto</a>
         </p>
     </fieldset>
 </template>
