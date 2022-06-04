@@ -6,7 +6,7 @@
             <h1 id="header-title">{{ title }}</h1>
         </a>
         
-        <div class="header-group">
+        <div id="header-options" class="header-group">
             <ul id="header-list">
                 <li><a href='#about'>About</a></li>
                 <li><a href='#socials'>Socials</a></li>
@@ -89,6 +89,32 @@ header
     &:hover
     {
         background-color: var(--main-dark-background-color);
+    }
+}
+
+@media (max-width: 550px)
+{
+    header
+    {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #header-options
+    {
+        width: 100%;
+    }
+
+    #header-list
+    {
+        width: inherit;
+        display: flex;
+        justify-content: space-evenly;
+
+        & li
+        {
+            font-size: 1.4em;
+        }
     }
 }
 </style>
