@@ -1,21 +1,27 @@
 <template>
 	<div id="app">
 		<headerVue />
+
+		<aboutVue />
 	</div>
 </template>
 
 <script>
-import headerVue from './header.vue'
+import headerVue from './header.vue';
+import aboutVue from './about.vue';
 
 export default
 {
 	name: 'app',
-	components: { headerVue }
+	components: { headerVue, aboutVue }
 }
 </script>
 
 <style lang="scss">
-@import url('./assets/normalize.css');
+body
+{
+	background-color: #18222c;
+}
 
 #app
 {

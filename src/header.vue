@@ -35,8 +35,8 @@ header
 
     padding: .5em 1em;
 
-    color: #41b883;
-    background-color: #2c3e50;
+    color: var(--main-color);
+    background-color: var(--main-background-color);
 }
 
 .header-group
@@ -84,7 +84,7 @@ header
 
     &:hover
     {
-        background-color: #18222c;
+        background-color: var(--main-dark-background-color);
     }
 }
 </style>
