@@ -1,8 +1,10 @@
 <template>
     <div id="about">
+        <h2>About</h2>
+
         <p>
-            VueLanding é uma aplicação de landing page simples para estudos com vue. <br />
-            Desenvolvido por: <a href="https://github.com/Lucas-Souto" target="_blank">Lucas Souto</a>
+            VueLanding is a simple landing page application for studies with vue. <br />
+            Developeed by: <a href="https://github.com/Lucas-Souto" target="_blank">Lucas Souto</a>
         </p>
     </div>
 </template>
@@ -17,14 +19,21 @@ export default
 <style lang="scss">
 #about
 {
-    width: fit-content;
-    font-size: 1.25em;
+    width: 90%;
     text-align: center;
 
     margin: 1em auto;
-    padding: .25em .5em;
-
+    
     color: var(--main-color);
+}
+
+#about p
+{
+    width: fit-content;
+    font-size: 1.25em;
+
+    margin: 1em auto;
+    padding: .75em 1em;
     border: 1px solid var(--main-color);
     border-radius: 5px;
 

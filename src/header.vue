@@ -1,10 +1,10 @@
 <template>
     <header>
-        <div class="header-group">
+        <a class="header-group" href="/">
             <img id="header-logo" src="/src/assets/logo.png" />
 
             <h1 id="header-title">{{ title }}</h1>
-        </div>
+        </a>
         
         <div class="header-group">
             <ul id="header-list">
@@ -37,6 +37,13 @@ header
 
     color: var(--main-color);
     background-color: var(--main-background-color);
+
+    & a
+    {
+        text-decoration: none;
+
+        color: inherit;
+    }
 }
 
 .header-group
@@ -75,11 +82,8 @@ header
     & a
     {
         display: block;
-        text-decoration: none;
 
         padding: .25em .5em;
-
-        color: inherit;
     }
 
     &:hover
