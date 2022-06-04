@@ -70,6 +70,7 @@ export default { name: 'contact' }
 
 #mail-area
 {
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -128,11 +129,6 @@ export default { name: 'contact' }
     .separator
     {
         margin: 1em 0;
-    }
-
-    #mail-area
-    {
-        width: 100%;
     }
 }
 
