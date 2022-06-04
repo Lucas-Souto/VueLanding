@@ -5,6 +5,8 @@
 		<aboutVue />
 
 		<socialsVue />
+
+		<contactVue />
 	</div>
 </template>
 
@@ -12,15 +14,21 @@
 import headerVue from './header.vue';
 import aboutVue from './about.vue';
 import socialsVue from './socials.vue';
+import contactVue from './contact.vue';
 
 export default
 {
 	name: 'app',
-	components: { headerVue, aboutVue, socialsVue }
+	components: { headerVue, aboutVue, socialsVue, contactVue }
 }
 </script>
 
 <style lang="scss">
+*
+{
+    box-sizing: border-box;
+}
+
 body
 {
 	background-color: #18222c;

@@ -36,6 +36,7 @@ export default
 
 .social-icon
 {
+    box-sizing: unset;
     display: block;
     position: relative;
     width: 3em;
