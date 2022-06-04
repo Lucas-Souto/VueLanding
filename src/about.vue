@@ -1,12 +1,12 @@
 <template>
-    <div id="about">
-        <h2>About</h2>
+    <fieldset id="about">
+        <legend>About</legend>
 
         <p>
             VueLanding is a simple landing page application for studies with vue. <br />
             Developeed by: <a href="https://github.com/Lucas-Souto" target="_blank">Lucas Souto</a>
         </p>
-    </div>
+    </fieldset>
 </template>
 
 <script>
@@ -19,23 +19,26 @@ export default
 <style lang="scss">
 #about
 {
-    width: 90%;
+    width: fit-content;
+    max-width: 90%;
     text-align: center;
 
     margin: 1em auto;
+    padding: 1em 2em;
     
     color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+
+#about legend
+{
+    font-size: 1.75em;
 }
 
 #about p
 {
-    width: fit-content;
     font-size: 1.25em;
-
-    margin: 1em auto;
-    padding: .75em 1em;
-    border: 1px solid var(--main-color);
-    border-radius: 5px;
 
     & a
     {
